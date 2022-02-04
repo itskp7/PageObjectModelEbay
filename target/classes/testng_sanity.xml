@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EBay Automation Suite">
+  <test name="EBay Test Cases">
+     <classes>
+          <class name="com.ebay.qa.testcases.HomePageTest"> </class>
+          <class name="com.ebay.qa.testcases.SignInPageTest"> </class>
+          <class name="com.ebay.qa.testcases.CheckoutPageTest"> </class> 
+     </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

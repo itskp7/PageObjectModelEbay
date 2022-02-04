@@ -1,0 +1,5 @@
+com\ebay\qa\testcases\CartPageTest.class
+com\ebay\qa\testcases\CheckoutPageTest.class
+com\ebay\qa\testcases\HomePageTest.class
+com\ebay\qa\testcases\WatchListPageTest.class
+com\ebay\qa\testcases\SignInPageTest.class
