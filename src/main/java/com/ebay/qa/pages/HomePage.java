@@ -93,5 +93,9 @@ public class HomePage extends TestBase{
 	public boolean verifyingUserNameLabelAfterLogin() {               // after logging in
 		return userNameLabel.isDisplayed();
 	}
+	
+	public void gitTestingMethod() {
+		System.out.println("GIT");
+	}
 
 }
