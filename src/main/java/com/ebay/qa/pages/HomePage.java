@@ -96,6 +96,7 @@ public class HomePage extends TestBase{
 	
 	public void gitTestingMethod() {
 		System.out.println("GIT");
+		System.out.println("2nd time");
 	}
 
 }

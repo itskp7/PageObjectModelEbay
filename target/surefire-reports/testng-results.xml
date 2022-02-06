@@ -2,318 +2,396 @@
 <testng-results skipped="3" failed="0" ignored="0" total="12" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="238927" started-at="2022-02-02T21:02:15 EST" finished-at="2022-02-02T21:06:14 EST">
+  <suite name="Command line suite" duration-ms="296951" started-at="2022-02-05T22:09:23 EST" finished-at="2022-02-05T22:14:20 EST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="238927" started-at="2022-02-02T21:02:15 EST" finished-at="2022-02-02T21:06:14 EST">
+    <test name="Command line test" duration-ms="296951" started-at="2022-02-05T22:09:23 EST" finished-at="2022-02-05T22:14:20 EST">
       <class name="com.ebay.qa.testcases.CartPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="setUp" is-config="true" duration-ms="22796" started-at="2022-02-02T21:02:15 EST" finished-at="2022-02-02T21:02:38 EST">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="setUp" is-config="true" duration-ms="27390" started-at="2022-02-05T22:09:23 EST" finished-at="2022-02-05T22:09:51 EST">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56625aa7efc33653358c379e15ee1ad6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56625aa7efc33653358c379e15ee1ad6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+at com.ebay.qa.pages.SignInPage.signIn(SignInPage.java:40)
+at com.ebay.qa.testcases.CartPageTest.setUp(CartPageTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="cartPageTitleTest()[pri:1, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="cartPageTitleTest" duration-ms="104" started-at="2022-02-02T21:02:38 EST" finished-at="2022-02-02T21:02:38 EST">
+        <test-method status="SKIP" signature="cartPageTitleTest()[pri:1, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="cartPageTitleTest" duration-ms="0" started-at="2022-02-05T22:09:52 EST" finished-at="2022-02-05T22:09:52 EST">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56625aa7efc33653358c379e15ee1ad6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56625aa7efc33653358c379e15ee1ad6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+at com.ebay.qa.pages.SignInPage.signIn(SignInPage.java:40)
+at com.ebay.qa.testcases.CartPageTest.setUp(CartPageTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="tearDown" is-config="true" duration-ms="1172" started-at="2022-02-02T21:02:38 EST" finished-at="2022-02-02T21:02:39 EST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="tearDown" is-config="true" duration-ms="-1644116992281" started-at="2022-02-05T22:09:52 EST" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="setUp" is-config="true" duration-ms="21719" started-at="2022-02-02T21:02:39 EST" finished-at="2022-02-02T21:03:01 EST">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="setUp" is-config="true" duration-ms="-1644116992355" started-at="2022-02-05T22:09:52 EST" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyGoToCheckoutTest()[pri:2, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="verifyGoToCheckoutTest" duration-ms="906" started-at="2022-02-02T21:03:01 EST" finished-at="2022-02-02T21:03:02 EST">
+        <test-method status="SKIP" signature="verifyGoToCheckoutTest()[pri:2, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="verifyGoToCheckoutTest" duration-ms="0" started-at="2022-02-05T22:09:52 EST" finished-at="2022-02-05T22:09:52 EST">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56625aa7efc33653358c379e15ee1ad6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56625aa7efc33653358c379e15ee1ad6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+at com.ebay.qa.pages.SignInPage.signIn(SignInPage.java:40)
+at com.ebay.qa.testcases.CartPageTest.setUp(CartPageTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoToCheckoutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="tearDown" is-config="true" duration-ms="1291" started-at="2022-02-02T21:03:02 EST" finished-at="2022-02-02T21:03:04 EST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.CartPageTest@3901d134]" name="tearDown" is-config="true" duration-ms="-1644116992431" started-at="2022-02-05T22:09:52 EST" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ebay.qa.testcases.CartPageTest -->
       <class name="com.ebay.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="7727" started-at="2022-02-02T21:03:53 EST" finished-at="2022-02-02T21:04:01 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="8450" started-at="2022-02-05T22:11:41 EST" finished-at="2022-02-05T22:11:49 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="homePageTitleTest" duration-ms="7" started-at="2022-02-02T21:04:01 EST" finished-at="2022-02-02T21:04:01 EST">
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="homePageTitleTest" duration-ms="716" started-at="2022-02-05T22:11:49 EST" finished-at="2022-02-05T22:11:50 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="48030" started-at="2022-02-02T21:04:01 EST" finished-at="2022-02-02T21:04:49 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="1582" started-at="2022-02-05T22:11:50 EST" finished-at="2022-02-05T22:11:51 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="6969" started-at="2022-02-02T21:04:49 EST" finished-at="2022-02-02T21:04:56 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="8495" started-at="2022-02-05T22:11:52 EST" finished-at="2022-02-05T22:12:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ebayLogoTest()[pri:2, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="ebayLogoTest" duration-ms="108" started-at="2022-02-02T21:04:56 EST" finished-at="2022-02-02T21:04:56 EST">
+        <test-method status="PASS" signature="ebayLogoTest()[pri:2, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="ebayLogoTest" duration-ms="245" started-at="2022-02-05T22:12:00 EST" finished-at="2022-02-05T22:12:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ebayLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="848" started-at="2022-02-02T21:04:56 EST" finished-at="2022-02-02T21:04:57 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="892" started-at="2022-02-05T22:12:00 EST" finished-at="2022-02-05T22:12:01 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="5023" started-at="2022-02-02T21:04:57 EST" finished-at="2022-02-02T21:05:02 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="8541" started-at="2022-02-05T22:12:01 EST" finished-at="2022-02-05T22:12:10 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchTest()[pri:3, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="searchTest" duration-ms="2513" started-at="2022-02-02T21:05:02 EST" finished-at="2022-02-02T21:05:04 EST">
+        <test-method status="PASS" signature="searchTest()[pri:3, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="searchTest" duration-ms="4196" started-at="2022-02-05T22:12:10 EST" finished-at="2022-02-05T22:12:14 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="694" started-at="2022-02-02T21:05:04 EST" finished-at="2022-02-02T21:05:05 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="842" started-at="2022-02-05T22:12:14 EST" finished-at="2022-02-05T22:12:15 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="5997" started-at="2022-02-02T21:05:05 EST" finished-at="2022-02-02T21:05:11 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="8998" started-at="2022-02-05T22:12:15 EST" finished-at="2022-02-05T22:12:24 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="userNameLabelTest()[pri:4, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="userNameLabelTest" duration-ms="5427" started-at="2022-02-02T21:05:11 EST" finished-at="2022-02-02T21:05:17 EST">
+        <test-method status="PASS" signature="userNameLabelTest()[pri:4, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="userNameLabelTest" duration-ms="8463" started-at="2022-02-05T22:12:24 EST" finished-at="2022-02-05T22:12:32 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userNameLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="740" started-at="2022-02-02T21:05:17 EST" finished-at="2022-02-02T21:05:17 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="1626" started-at="2022-02-05T22:12:32 EST" finished-at="2022-02-05T22:12:34 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ebay.qa.testcases.HomePageTest -->
       <class name="com.ebay.qa.testcases.CheckoutPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="setup" is-config="true" duration-ms="49554" started-at="2022-02-02T21:03:04 EST" finished-at="2022-02-02T21:03:53 EST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for url to contain "https://pay.ebay.ca/rxo?action". Current url: "https://www.ebay.ca/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fpay.ebay.ca%2Frxo%3Frypsvc%3Dtrue%26pagename%3Dryp%26shoppingcartid%3D8073771522%26action%3Dcreate&iid=46915841-cddf-406b-8b9a-3dae4181e463&iim=fMTQyLjh&iia=CuEyMC4xvj&iiz=KCmMS4yNDc*URG" (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b79cb07e55a34ddb8e90a680cb76977]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://pay.ebay.ca/rxo?action". Current url: "https://www.ebay.ca/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fpay.ebay.ca%2Frxo%3Frypsvc%3Dtrue%26pagename%3Dryp%26shoppingcartid%3D8073771522%26action%3Dcreate&iid=46915841-cddf-406b-8b9a-3dae4181e463&iim=fMTQyLjh&iia=CuEyMC4xvj&iiz=KCmMS4yNDc*URG" (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b79cb07e55a34ddb8e90a680cb76977
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.ebay.qa.testcases.CheckoutPageTest.setup(CheckoutPageTest.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="setup" is-config="true" duration-ms="44111" started-at="2022-02-05T22:09:52 EST" finished-at="2022-02-05T22:10:36 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="checkoutPageTitleTest()[pri:1, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="checkoutPageTitleTest" duration-ms="0" started-at="2022-02-02T21:03:53 EST" finished-at="2022-02-02T21:03:53 EST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for url to contain "https://pay.ebay.ca/rxo?action". Current url: "https://www.ebay.ca/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fpay.ebay.ca%2Frxo%3Frypsvc%3Dtrue%26pagename%3Dryp%26shoppingcartid%3D8073771522%26action%3Dcreate&iid=46915841-cddf-406b-8b9a-3dae4181e463&iim=fMTQyLjh&iia=CuEyMC4xvj&iiz=KCmMS4yNDc*URG" (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b79cb07e55a34ddb8e90a680cb76977]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://pay.ebay.ca/rxo?action". Current url: "https://www.ebay.ca/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fpay.ebay.ca%2Frxo%3Frypsvc%3Dtrue%26pagename%3Dryp%26shoppingcartid%3D8073771522%26action%3Dcreate&iid=46915841-cddf-406b-8b9a-3dae4181e463&iim=fMTQyLjh&iia=CuEyMC4xvj&iiz=KCmMS4yNDc*URG" (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b79cb07e55a34ddb8e90a680cb76977
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.ebay.qa.testcases.CheckoutPageTest.setup(CheckoutPageTest.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="checkoutPageTitleTest()[pri:1, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="checkoutPageTitleTest" duration-ms="9" started-at="2022-02-05T22:10:36 EST" finished-at="2022-02-05T22:10:36 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutPageTitleTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="tearDown" is-config="true" duration-ms="-1643853833617" started-at="2022-02-02T21:03:53 EST" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="tearDown" is-config="true" duration-ms="26002" started-at="2022-02-05T22:10:36 EST" finished-at="2022-02-05T22:11:02 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="setup" is-config="true" duration-ms="-1643853833619" started-at="2022-02-02T21:03:53 EST" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="setup" is-config="true" duration-ms="29677" started-at="2022-02-05T22:11:02 EST" finished-at="2022-02-05T22:11:32 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="endCheckoutTest()[pri:2, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="endCheckoutTest" duration-ms="0" started-at="2022-02-02T21:03:53 EST" finished-at="2022-02-02T21:03:53 EST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for url to contain "https://pay.ebay.ca/rxo?action". Current url: "https://www.ebay.ca/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fpay.ebay.ca%2Frxo%3Frypsvc%3Dtrue%26pagename%3Dryp%26shoppingcartid%3D8073771522%26action%3Dcreate&iid=46915841-cddf-406b-8b9a-3dae4181e463&iim=fMTQyLjh&iia=CuEyMC4xvj&iiz=KCmMS4yNDc*URG" (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b79cb07e55a34ddb8e90a680cb76977]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://pay.ebay.ca/rxo?action". Current url: "https://www.ebay.ca/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fpay.ebay.ca%2Frxo%3Frypsvc%3Dtrue%26pagename%3Dryp%26shoppingcartid%3D8073771522%26action%3Dcreate&iid=46915841-cddf-406b-8b9a-3dae4181e463&iim=fMTQyLjh&iia=CuEyMC4xvj&iiz=KCmMS4yNDc*URG" (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b79cb07e55a34ddb8e90a680cb76977
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.ebay.qa.testcases.CheckoutPageTest.setup(CheckoutPageTest.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="endCheckoutTest()[pri:2, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="endCheckoutTest" duration-ms="6252" started-at="2022-02-05T22:11:32 EST" finished-at="2022-02-05T22:11:38 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endCheckoutTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="tearDown" is-config="true" duration-ms="-1643853833651" started-at="2022-02-02T21:03:53 EST" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.CheckoutPageTest@14d3bc22]" name="tearDown" is-config="true" duration-ms="2082" started-at="2022-02-05T22:11:38 EST" finished-at="2022-02-05T22:11:41 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ebay.qa.testcases.CheckoutPageTest -->
       <class name="com.ebay.qa.testcases.WatchListPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="setUp" is-config="true" duration-ms="14250" started-at="2022-02-02T21:05:36 EST" finished-at="2022-02-02T21:05:50 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="setUp" is-config="true" duration-ms="24241" started-at="2022-02-05T22:13:06 EST" finished-at="2022-02-05T22:13:30 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="watchListPageTitleTest()[pri:1, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="watchListPageTitleTest" duration-ms="5" started-at="2022-02-02T21:05:50 EST" finished-at="2022-02-02T21:05:50 EST">
+        <test-method status="PASS" signature="watchListPageTitleTest()[pri:1, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="watchListPageTitleTest" duration-ms="8" started-at="2022-02-05T22:13:30 EST" finished-at="2022-02-05T22:13:30 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- watchListPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="tearDown" is-config="true" duration-ms="665" started-at="2022-02-02T21:05:50 EST" finished-at="2022-02-02T21:05:51 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="tearDown" is-config="true" duration-ms="8108" started-at="2022-02-05T22:13:30 EST" finished-at="2022-02-05T22:13:38 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="setUp" is-config="true" duration-ms="23233" started-at="2022-02-02T21:05:51 EST" finished-at="2022-02-02T21:06:14 EST">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="setUp" is-config="true" duration-ms="41293" started-at="2022-02-05T22:13:38 EST" finished-at="2022-02-05T22:14:19 EST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='rvi__title']"}
@@ -322,8 +400,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 644760d9463b715e62fb8ce9057d8ce1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3d42b4b8539a52eaa57fd934764ea6e
 *** Element info: {Using=xpath, value=//div[@class='rvi__title']}]]>
             </message>
             <full-stacktrace>
@@ -333,8 +411,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 644760d9463b715e62fb8ce9057d8ce1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3d42b4b8539a52eaa57fd934764ea6e
 *** Element info: {Using=xpath, value=//div[@class='rvi__title']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -350,7 +428,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
@@ -409,7 +487,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="addingToCartTest()[pri:2, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="addingToCartTest" duration-ms="0" started-at="2022-02-02T21:06:14 EST" finished-at="2022-02-02T21:06:14 EST">
+        <test-method status="SKIP" signature="addingToCartTest()[pri:2, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="addingToCartTest" duration-ms="0" started-at="2022-02-05T22:14:20 EST" finished-at="2022-02-05T22:14:20 EST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='rvi__title']"}
@@ -418,8 +496,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 644760d9463b715e62fb8ce9057d8ce1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3d42b4b8539a52eaa57fd934764ea6e
 *** Element info: {Using=xpath, value=//div[@class='rvi__title']}]]>
             </message>
             <full-stacktrace>
@@ -429,8 +507,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ROG', ip: '192.168.2.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 644760d9463b715e62fb8ce9057d8ce1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\PRAJAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3d42b4b8539a52eaa57fd934764ea6e
 *** Element info: {Using=xpath, value=//div[@class='rvi__title']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -446,7 +524,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
@@ -505,33 +583,33 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingToCartTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="tearDown" is-config="true" duration-ms="-1643853974562" started-at="2022-02-02T21:06:14 EST" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.WatchListPageTest@7b227d8d]" name="tearDown" is-config="true" duration-ms="-1644117260887" started-at="2022-02-05T22:14:20 EST" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ebay.qa.testcases.WatchListPageTest -->
       <class name="com.ebay.qa.testcases.SignInPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="setup" is-config="true" duration-ms="6643" started-at="2022-02-02T21:05:17 EST" finished-at="2022-02-02T21:05:24 EST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="setup" is-config="true" duration-ms="11774" started-at="2022-02-05T22:12:34 EST" finished-at="2022-02-05T22:12:46 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="signInPageTitleTest()[pri:1, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="signInPageTitleTest" duration-ms="5" started-at="2022-02-02T21:05:24 EST" finished-at="2022-02-02T21:05:24 EST">
+        <test-method status="PASS" signature="signInPageTitleTest()[pri:1, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="signInPageTitleTest" duration-ms="8" started-at="2022-02-05T22:12:46 EST" finished-at="2022-02-05T22:12:46 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="tearDown" is-config="true" duration-ms="675" started-at="2022-02-02T21:05:24 EST" finished-at="2022-02-02T21:05:25 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="tearDown" is-config="true" duration-ms="1025" started-at="2022-02-05T22:12:46 EST" finished-at="2022-02-05T22:12:47 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="setup" is-config="true" duration-ms="7380" started-at="2022-02-02T21:05:25 EST" finished-at="2022-02-02T21:05:32 EST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="setup" is-config="true" duration-ms="9934" started-at="2022-02-05T22:12:47 EST" finished-at="2022-02-05T22:12:57 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="signInTest()[pri:2, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="signInTest" duration-ms="3134" started-at="2022-02-02T21:05:32 EST" finished-at="2022-02-02T21:05:35 EST">
+        <test-method status="PASS" signature="signInTest()[pri:2, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="signInTest" duration-ms="6501" started-at="2022-02-05T22:12:57 EST" finished-at="2022-02-05T22:13:04 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="tearDown" is-config="true" duration-ms="716" started-at="2022-02-02T21:05:35 EST" finished-at="2022-02-02T21:05:36 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.SignInPageTest@4c1d9d4b]" name="tearDown" is-config="true" duration-ms="1463" started-at="2022-02-05T22:13:04 EST" finished-at="2022-02-05T22:13:06 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

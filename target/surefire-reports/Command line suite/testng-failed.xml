@@ -10,14 +10,14 @@
           <include name="addingToCartTest"/>
         </methods>
       </class> <!-- com.ebay.qa.testcases.WatchListPageTest -->
-      <class name="com.ebay.qa.testcases.CheckoutPageTest">
+      <class name="com.ebay.qa.testcases.CartPageTest">
         <methods>
-          <include name="setup"/>
+          <include name="cartPageTitleTest"/>
+          <include name="verifyGoToCheckoutTest"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="endCheckoutTest"/>
-          <include name="checkoutPageTitleTest"/>
         </methods>
-      </class> <!-- com.ebay.qa.testcases.CheckoutPageTest -->
+      </class> <!-- com.ebay.qa.testcases.CartPageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
