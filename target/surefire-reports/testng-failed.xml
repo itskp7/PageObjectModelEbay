@@ -5,6 +5,7 @@
     <classes>
       <class name="com.ebay.qa.testcases.WatchListPageTest">
         <methods>
+          <include name="watchListPageTitleTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="addingToCartTest"/>
@@ -18,6 +19,28 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.ebay.qa.testcases.CartPageTest -->
+      <class name="com.ebay.qa.testcases.CheckoutPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="endCheckoutTest"/>
+          <include name="checkoutPageTitleTest"/>
+        </methods>
+      </class> <!-- com.ebay.qa.testcases.CheckoutPageTest -->
+      <class name="com.ebay.qa.testcases.SignInPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="signInTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ebay.qa.testcases.SignInPageTest -->
+      <class name="com.ebay.qa.testcases.HomePageTest">
+        <methods>
+          <include name="userNameLabelTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ebay.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
